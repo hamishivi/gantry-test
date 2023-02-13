@@ -1,0 +1,1 @@
+gantry run -y -n test-nfs-location --workspace ai2/hamishi --nfs --cluster ai2/allennlp-cirrascale ----beaker-image 'ai2/pytorch1.13.0-cuda11.6-python3.9' --venv 'base' -- ls /net/nfs/allennlp/hamishi/.hf
